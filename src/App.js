@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <div className="header">
-        <img src={logo} className="logo" />
+        <img src={logo} className="logo" alt=""/>
       </div>
       <div className="app-body">
         <div className="about-banner">
@@ -54,7 +54,7 @@ function App() {
               </pr>
             </div>
             <div className="img-cont">
-              <img src={image} className="image-1" />
+              <img src={image} className="image-1" alt=""/>
             </div>
           </div>
         </div>
