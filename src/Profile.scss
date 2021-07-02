@@ -167,5 +167,21 @@
     background-color: #035152;
     color: white;
     margin: 2rem 6rem 3rem 6rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    justify-content: space-around;
+
+    .items {
+      .item1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+      .item2 {
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
   }
 }

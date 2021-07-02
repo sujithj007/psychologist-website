@@ -110,9 +110,22 @@ function App() {
 
       <div className="experience-cont">
         <div className="items">
-          <div></div>
-          <div></div>
+          <div className="item1">30 Years</div>
+          <div className="item2">Of experience</div>
         </div>
+        <div className="items">
+          <div className="item1"> 100 +</div>
+          <div className="item2">Patients</div>
+        </div>
+        <div className="items">
+          <div className="item1"> 6</div>
+          <div className="item2">Supervisors</div>
+        </div>
+        <div className="items">  
+          <div className="item1"> 4K</div>
+          <div className="item2">hours spent withPatients</div>
+        </div>
+        
       </div>
     </div>
   );
