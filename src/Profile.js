@@ -39,7 +39,7 @@ function App() {
             and <span className="highlighter">Psychology areas</span> . Below
             are listed only some of topics we can work on .
           </div>
-          <img src={image6} className="doctor-image"></img>
+          <img src={image6} className="doctor-image" alt=""></img>
         </div>
 
         <div className="topics-list">
@@ -103,7 +103,7 @@ function App() {
             </div>
           </div>
 
-          <img src={image2} className="doctor-image"></img>
+          <img src={image2} className="doctor-image" alt=""></img>
         </div>
         <div></div>
       </div>
