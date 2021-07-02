@@ -121,11 +121,15 @@ function App() {
           <div className="item1"> 6</div>
           <div className="item2">Supervisors</div>
         </div>
-        <div className="items">  
+        <div className="items">
           <div className="item1"> 4K</div>
           <div className="item2">hours spent withPatients</div>
         </div>
-        
+      </div>
+
+      <div className="footer">
+        <img src={logo} className="logo" alt="" />
+        <div>Terms and conditions applied.</div>
       </div>
     </div>
   );
