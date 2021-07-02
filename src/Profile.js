@@ -50,38 +50,33 @@ function App() {
             </div>
           </div>
           <div className="topics-list-items">
-            <div className="item-1">Anxiety</div>
+            <div className="item-1">Phobia</div>
             <div className="item-2">
-              Anxiety is an emotion characterized by an unpleasant state of
-              inner Trauma
+            A phobia is a type of anxiety disorder that causes an individual to experience extreme, irrational fear about a situation, living creature, place, or object.
             </div>
           </div>
           <div className="topics-list-items">
-            <div className="item-1">Anxiety</div>
+            <div className="item-1">Addiction</div>
             <div className="item-2">
-              Anxiety is an emotion characterized by an unpleasant state of
-              inner Trauma
+            Addiction is an inability to stop using a substance or engaging in a behavior even though it is causing psychological and physical harm.
             </div>
           </div>
           <div className="topics-list-items">
-            <div className="item-1">Anxiety</div>
+            <div className="item-1">Deppression</div>
             <div className="item-2">
-              Anxiety is an emotion characterized by an unpleasant state of
-              inner Trauma
+            Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.
             </div>
           </div>
           <div className="topics-list-items">
-            <div className="item-1">Anxiety</div>
+            <div className="item-1">Eating Disorders</div>
             <div className="item-2">
-              Anxiety is an emotion characterized by an unpleasant state of
-              inner Trauma
+            Eating disorders—including anorexia nervosa, bulimia nervosa, and binge eating disorder—have the highest mortality rate of any mental illness.
             </div>
           </div>
           <div className="topics-list-items">
-            <div className="item-1">Anxiety</div>
+            <div className="item-1">False Memory</div>
             <div className="item-2">
-              Anxiety is an emotion characterized by an unpleasant state of
-              inner Trauma
+            A false memory is a fabricated or distorted recollection of an event. Such memories may be entirely false and imaginary
             </div>
           </div>
         </div>
