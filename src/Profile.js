@@ -2,10 +2,11 @@ import logo from "./logo.png";
 import { BiPhoneCall } from "react-icons/bi";
 import "./Profile.scss";
 import image6 from "./image6.jpg";
+import image2 from "./image2.jpg";
 
 function App() {
   return (
-    <div>
+    <div className="profile-cont">
       <div className="header">
         <img src={logo} className="logo" alt="" />
         <div className="header-name">Psychologist</div>
@@ -52,33 +53,65 @@ function App() {
           <div className="topics-list-items">
             <div className="item-1">Phobia</div>
             <div className="item-2">
-            A phobia is a type of anxiety disorder that causes an individual to experience extreme, irrational fear about a situation, living creature, place, or object.
+              A phobia is a type of anxiety disorder that causes an individual
+              to experience extreme, irrational fear about a situation, living
+              creature, place, or object.
             </div>
           </div>
           <div className="topics-list-items">
             <div className="item-1">Addiction</div>
             <div className="item-2">
-            Addiction is an inability to stop using a substance or engaging in a behavior even though it is causing psychological and physical harm.
+              Addiction is an inability to stop using a substance or engaging in
+              a behavior even though it is causing psychological and physical
+              harm.
             </div>
           </div>
           <div className="topics-list-items">
             <div className="item-1">Deppression</div>
             <div className="item-2">
-            Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.
+              Depression causes feelings of sadness and/or a loss of interest in
+              activities you once enjoyed. It can lead to a variety of emotional
+              and physical problems and can decrease your ability to function at
+              work and at home.
             </div>
           </div>
           <div className="topics-list-items">
             <div className="item-1">Eating Disorders</div>
             <div className="item-2">
-            Eating disorders—including anorexia nervosa, bulimia nervosa, and binge eating disorder—have the highest mortality rate of any mental illness.
+              Eating disorders—including anorexia nervosa, bulimia nervosa, and
+              binge eating disorder—have the highest mortality rate of any
+              mental illness.
             </div>
           </div>
           <div className="topics-list-items">
             <div className="item-1">False Memory</div>
             <div className="item-2">
-            A false memory is a fabricated or distorted recollection of an event. Such memories may be entirely false and imaginary
+              A false memory is a fabricated or distorted recollection of an
+              event. Such memories may be entirely false and imaginary
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="cooperation-cont">
+        <div className="cooperation-first-cont">
+          <div className="topic-heading">
+            How cooperation <span className="highlighter">looks like?</span>{" "}
+            <div className="text-2">
+              You can consult a single case or we can have a long term
+              relationship to dive into more complicated cases
+            </div>
+          </div>
+
+          <img src={image2} className="doctor-image"></img>
+        </div>
+        <div></div>
+      </div>
+
+      <div className="experience-cont">
+        <div className="items">
+          <div></div>
+          <div></div>
         </div>
       </div>
     </div>
